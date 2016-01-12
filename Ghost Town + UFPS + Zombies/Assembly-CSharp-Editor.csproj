@@ -45,6 +45,27 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\PlayMaker Animator\Actions\Editor\GetAnimatorBoneGameObjectActionEditor.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Scripts\Editor\PlayMakerStateMachineBehaviorProxyInspector.cs" />
+     <Compile Include="Assets\PlayMaker Utils\Components\Editor\CommentInspector.cs" />
+     <Compile Include="Assets\PlayMaker Utils\Editor\PlayMakerEditorUtils.cs" />
+     <Compile Include="Assets\PlayMaker Utils\Editor\PlayMakerInspectorUtils.cs" />
+     <Compile Include="Assets\PlayMaker Utils\Editor\PlayMakerInspectorUtils_Events.cs" />
+     <Compile Include="Assets\PlayMaker Utils\Editor\PlayMakerInspectorUtils_Reflection.cs" />
+     <Compile Include="Assets\PlayMaker Utils\Editor\PlayMakerInspectorUtils_Variables.cs" />
+     <Compile Include="Assets\PlayMaker Utils\Editor\PlayMakerStats.cs" />
+     <Compile Include="Assets\PlayMaker Utils\PropertyDrawers\ButtonAttribute\Editor\ButtonDrawer.cs" />
+     <Compile Include="Assets\PlayMaker Utils\PropertyDrawers\Editor\PlayMakerPropertyDrawerBaseClass.cs" />
+     <Compile Include="Assets\PlayMaker Utils\PropertyDrawers\Owner\Editor\OwnerPropertyDrawer.cs" />
+     <Compile Include="Assets\PlayMaker Utils\PropertyDrawers\PlayMakerEvent\Editor\PlayMakerEventPropertyDrawer.cs" />
+     <Compile Include="Assets\PlayMaker Utils\PropertyDrawers\PlayMakerEventTarget\Editor\PlayMakerEventTargetPropertyDrawer.cs" />
+     <Compile Include="Assets\PlayMaker Utils\PropertyDrawers\PlayMakerFsmTarget\Editor\PlayMakerFsmTargetPropertyDrawer.cs" />
+     <Compile Include="Assets\PlayMaker Utils\PropertyDrawers\PlayMakerFsmVariable\Editor\PlayMakerFsmVariablePropertyDrawer.cs" />
+     <Compile Include="Assets\PlayMaker Utils\PropertyDrawers\PlayMakerFsmVariableTarget\Editor\PlayMakerFsmVariableTargetPropertyDrawer.cs" />
+     <Compile Include="Assets\PlayMaker Utils\Wizards\LinkerWizard\Editor\LinkerDataCustomInspector.cs" />
+     <Compile Include="Assets\PlayMaker Utils\Wizards\PlayMakerEventProxy\Editor\EventProxyFileFinder.cs" />
+     <Compile Include="Assets\PlayMaker Utils\Wizards\PlayMakerEventProxy\Editor\PlayMakerEventProxyCreator.cs" />
+     <Compile Include="Assets\PlayMaker Utils\Wizards\PlayMakerEventProxy\Editor\PlayMakerEventProxyCreatorWizard.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Editor\LookAtActionEditor.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Editor\MoveTowardsActionEditor.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Editor\SetCameraFOVActionEditor.cs" />
@@ -104,6 +125,21 @@
      <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Editor\vp_SpawnPointEditor.cs" />
      <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Editor\vp_SurfaceIdentifierEditor.cs" />
      <Compile Include="Assets\iTween\PlayMaker\Editor\iTweenMoveToActionEditor.cs" />
+     <Compile Include="Assets\net.fabrejean\Editor\Common\Utils.cs" />
+     <Compile Include="Assets\net.fabrejean\Editor\Common\VersionInfo.cs" />
+     <Compile Include="Assets\net.fabrejean\Editor\MarkDownSharp\Escapes.cs" />
+     <Compile Include="Assets\net.fabrejean\Editor\MarkDownSharp\MarkDownFileInspector.cs" />
+     <Compile Include="Assets\net.fabrejean\Editor\MarkDownSharp\MarkdownGUI.cs" />
+     <Compile Include="Assets\net.fabrejean\Editor\MarkDownSharp\MarkdownParser.cs" />
+     <Compile Include="Assets\net.fabrejean\Editor\MarkDownSharp\ObjectInspector.cs" />
+     <Compile Include="Assets\net.fabrejean\Editor\PlayMaker\Ecosystem\Classes\EcosystemUtils.cs" />
+     <Compile Include="Assets\net.fabrejean\Editor\PlayMaker\Ecosystem\Classes\Item.cs" />
+     <Compile Include="Assets\net.fabrejean\Editor\PlayMaker\Ecosystem\Classes\ItemDocumentation.cs" />
+     <Compile Include="Assets\net.fabrejean\Editor\PlayMaker\Ecosystem\EcosystemBrowser.cs" />
+     <Compile Include="Assets\net.fabrejean\Editor\PlayMaker\Ecosystem\Tools\ProjectScanner\ProjectScanner.cs" />
+     <Compile Include="Assets\net.fabrejean\Editor\Plugins\EditorCoroutine.cs" />
+     <Compile Include="Assets\net.fabrejean\Editor\Plugins\HttpWrapper.cs" />
+     <Compile Include="Assets\net.fabrejean\Editor\Plugins\JSON.cs" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterPistolOutOfControl.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\ShooterPistol01OutOfControl.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraClimb.txt" />
@@ -225,6 +261,7 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\WeaponPistol01Slide.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\CowboyShooter.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MouseLowSensWeapon.txt" />
+     <None Include="Assets\net.fabrejean\Editor\Common\GuiSkins\VolcanicGuiSkin\ReadMeForCredits.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeWeaponSwingDownLeft.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\StompingInput.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MafiaWeaponZoom.txt" />
@@ -275,6 +312,7 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\OldSchoolShooter.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MechShooter.txt" />
      <None Include="Assets\UFPS\Base\Content\Levels\SkyCity\CustomShaders\Scroll_Emissive.shader" />
+     <None Include="Assets\net.fabrejean\Editor\Common\GuiSkins\README.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MechInput.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeAttackToLeft.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\TurretCamera.txt" />
