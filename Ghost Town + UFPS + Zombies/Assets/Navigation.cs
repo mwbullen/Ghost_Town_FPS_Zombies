@@ -3,8 +3,10 @@ using System.Collections;
 
 public class Navigation : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+    
+
+    // Use this for initialization
+    void Start () {
 	
 	}
 	
@@ -14,9 +16,21 @@ public class Navigation : MonoBehaviour {
 	}
 
 	public void NavtoGameObject(GameObject target) {
-		NavMeshAgent navAgent = GetComponent<NavMeshAgent> ();
+        NavMeshAgent navAgent = GetComponent<NavMeshAgent>();
 
-		navAgent.SetDestination (target.transform.position);
+        navAgent.SetDestination (target.transform.position);
 
 	}
+
+    public void StopNavigation()
+    {
+        NavMeshAgent navAgent = GetComponent<NavMeshAgent>();
+        navAgent.Stop();        
+    }
+
+    public void ResumeNavigation()
+    {
+        NavMeshAgent navAgent = GetComponent<NavMeshAgent>();
+        navAgent.Resume();
+    }
 }
