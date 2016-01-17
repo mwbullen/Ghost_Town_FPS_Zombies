@@ -7,6 +7,8 @@ Project("{10BC1652-013B-22DF-CE31-45BC9DC7686D}") = "Ghost Town + UFPS + Zombies
 EndProject
 Project("{10BC1652-013B-22DF-CE31-45BC9DC7686D}") = "Ghost Town + UFPS + Zombies", "Assembly-CSharp-Editor.csproj", "{96206B62-B41B-E941-D8B4-7BC004AF0A57}"
 EndProject
+Project("{10BC1652-013B-22DF-CE31-45BC9DC7686D}") = "Ghost Town + UFPS + Zombies", "Assembly-UnityScript-firstpass.unityproj", "{F4132CF7-8EBA-FCC0-7DE3-7FC1CEF6AF7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{96206B62-B41B-E941-D8B4-7BC004AF0A57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96206B62-B41B-E941-D8B4-7BC004AF0A57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96206B62-B41B-E941-D8B4-7BC004AF0A57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4132CF7-8EBA-FCC0-7DE3-7FC1CEF6AF7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4132CF7-8EBA-FCC0-7DE3-7FC1CEF6AF7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4132CF7-8EBA-FCC0-7DE3-7FC1CEF6AF7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4132CF7-8EBA-FCC0-7DE3-7FC1CEF6AF7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
