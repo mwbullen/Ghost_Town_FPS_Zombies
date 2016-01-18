@@ -47,6 +47,15 @@
   <ItemGroup>
      <Compile Include="Assets\PlayMaker Animator\Actions\Editor\GetAnimatorBoneGameObjectActionEditor.cs" />
      <Compile Include="Assets\PlayMaker Animator\Scripts\Editor\PlayMakerStateMachineBehaviorProxyInspector.cs" />
+     <Compile Include="Assets\PlayMaker ArrayMaker\Actions\ArrayList\Editor\ArrayListAddCustomEditor.cs" />
+     <Compile Include="Assets\PlayMaker ArrayMaker\Actions\ArrayList\Editor\ArrayListInsertCustomEditor.cs" />
+     <Compile Include="Assets\PlayMaker ArrayMaker\Actions\Editor\PlayMakerArrayListProxyObjectPropertyDrawer.cs" />
+     <Compile Include="Assets\PlayMaker ArrayMaker\Actions\HashTable\Editor\HashTableAddCustomEditor.cs" />
+     <Compile Include="Assets\PlayMaker ArrayMaker\Actions\HashTable\Editor\HashTableSetCustomEditor.cs" />
+     <Compile Include="Assets\PlayMaker ArrayMaker\Addons\Custom\GameObject\Editor\ArrayListSendEventToGameObjectsCustomEditor.cs" />
+     <Compile Include="Assets\PlayMaker ArrayMaker\__internal__\Editor\PlayMakerArrayListProxyInspector.cs" />
+     <Compile Include="Assets\PlayMaker ArrayMaker\__internal__\Editor\PlayMakerCollectionProxyInspector.cs" />
+     <Compile Include="Assets\PlayMaker ArrayMaker\__internal__\Editor\PlayMakerHashTableProxyInspector.cs" />
      <Compile Include="Assets\PlayMaker Utils\Components\Editor\CommentInspector.cs" />
      <Compile Include="Assets\PlayMaker Utils\Editor\PlayMakerEditorUtils.cs" />
      <Compile Include="Assets\PlayMaker Utils\Editor\PlayMakerInspectorUtils.cs" />
@@ -238,6 +247,7 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponRevolver.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ImmobileCamera.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Shotgun01\ShooterShotgun01Default.txt" />
+     <None Include="Assets\PlayMaker ArrayMaker\readme.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceCamera.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ImmobileController.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeWeaponSwingLeft.txt" />

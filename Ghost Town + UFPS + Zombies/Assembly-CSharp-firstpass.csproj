@@ -144,6 +144,7 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponRevolver.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ImmobileCamera.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Shotgun01\ShooterShotgun01Default.txt" />
+     <None Include="Assets\PlayMaker ArrayMaker\readme.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceCamera.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ImmobileController.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeWeaponSwingLeft.txt" />
