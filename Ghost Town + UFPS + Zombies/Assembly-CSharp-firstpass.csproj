@@ -89,6 +89,7 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraReload.txt" />
      <None Include="Assets\HorrorEnvironment_GhostTown\Scripts\GhostTown_rimShader_simple.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SmackController.txt" />
+     <None Include="Assets\VolumetricLines\Shaders\VolumetricLineShaderAlphaBlended.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraFreeze.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeWeaponPullUpLeft.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SystemOFFInput.txt" />
@@ -121,6 +122,7 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\DefaultCamera.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\PerspModernInput.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeAttackToDown.txt" />
+     <None Include="Assets\VolumetricLines\Shaders\VolumetricLineShaderAdditive.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\WeaponPistol01Run.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ArtilleryInput.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\DefaultWeapon.txt" />
@@ -188,8 +190,10 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\AstronautCamera.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MechWeaponZoom.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeAttackToRight.txt" />
+     <None Include="Assets\Elementals\!Readme.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MouseLowSensCamera.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegunZoom.txt" />
+     <None Include="Assets\VolumetricLines\Shaders\VolumetricLineShaderAdditiveFast.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponPistolReload.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterRevolver.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\WeaponPistol01OutOfControl.txt" />
@@ -224,6 +228,7 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeAttackToLeft.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\TurretCamera.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\CowboyWeapon.txt" />
+     <None Include="Assets\VolumetricLines\Shaders\VolumetricLineStripShaderAdditive.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\PivotElbowWeapon.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\AssaultRifle01\WeaponAssaultRifle01Run.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\WallFacingInput.txt" />
@@ -232,12 +237,14 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\AstronautInput.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ModernWeaponZoom.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MafiaShooterZoom.txt" />
+     <None Include="Assets\VolumetricLines\Shaders\VolumetricLineStripShaderAlphaBlended.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\PerspModernWeapon.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponPistolRun.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\PerspModernCamera.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\ShooterPistol01Default.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ModernControllerZoom.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeAttackToUp.txt" />
+     <None Include="Assets\VolumetricLines\Shaders\VolumetricLineShaderAlphaBlendedFast.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ModernShooterZoom.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraSlide.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MechCamera.txt" />
