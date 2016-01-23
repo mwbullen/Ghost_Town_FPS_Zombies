@@ -49,6 +49,7 @@
      <Compile Include="Assets\Elementals\Scripts\OrbitCamera.cs" />
      <Compile Include="Assets\Elementals\Scripts\TestParticles.cs" />
      <Compile Include="Assets\GameControl.cs" />
+     <Compile Include="Assets\MouseControl.cs" />
      <Compile Include="Assets\Navigation.cs" />
      <Compile Include="Assets\OldChest\DemoScene\MouseOrbit.cs" />
      <Compile Include="Assets\PlayMaker Animator\Actions\AnimatorCrossFade.cs" />

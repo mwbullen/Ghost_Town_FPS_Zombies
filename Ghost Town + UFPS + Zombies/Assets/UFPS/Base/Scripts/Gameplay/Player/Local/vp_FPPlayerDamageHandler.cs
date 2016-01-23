@@ -202,7 +202,7 @@ public class vp_FPPlayerDamageHandler : vp_PlayerDamageHandler
 	/// </summary>
 	protected override void Reset()
 	{
-
+		return;
 		base.Reset();
 
 		if (!Application.isPlaying)
