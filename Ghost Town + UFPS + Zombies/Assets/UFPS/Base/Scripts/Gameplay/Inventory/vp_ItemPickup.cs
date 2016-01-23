@@ -23,6 +23,7 @@ using System;
 [System.Serializable]
 public class vp_ItemPickup : MonoBehaviour
 {
+	public bool OneTimeUse = true;
 
 #if UNITY_EDITOR
 	[vp_ItemID]
@@ -384,6 +385,7 @@ public class vp_ItemPickup : MonoBehaviour
 		{
 			m_PickedUpAmount = (vp_TargetEventReturn<vp_ItemType, int>.SendUpwards(col, "GetItemCount", m_Item.Type) - prevAmount);	// calculate resulting amount given
 			OnSuccess(col.transform);
+			GameObject.Destroy (gameObject);
 		}
 		else
 		{
