@@ -385,7 +385,6 @@ public class vp_ItemPickup : MonoBehaviour
 		{
 			m_PickedUpAmount = (vp_TargetEventReturn<vp_ItemType, int>.SendUpwards(col, "GetItemCount", m_Item.Type) - prevAmount);	// calculate resulting amount given
 			OnSuccess(col.transform);
-			GameObject.Destroy (gameObject);
 		}
 		else
 		{
@@ -438,7 +437,7 @@ public class vp_ItemPickup : MonoBehaviour
 		if (vp_Gameplay.isMultiplayer && vp_Gameplay.isMaster)
 			vp_GlobalEvent<vp_ItemPickup, Transform>.Send("TransmitPickup", this, recipient);	// will only execute on the master in multiplayer
 
-
+		if(OneTimeUse) GameObject.Destroy (gameObject);
 	}
 
 
