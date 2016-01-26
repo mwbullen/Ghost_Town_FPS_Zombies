@@ -204,6 +204,9 @@
      <Compile Include="Assets\PlayMaker ArrayMaker\__internal__\PlayMakerArrayListProxy.cs" />
      <Compile Include="Assets\PlayMaker ArrayMaker\__internal__\PlayMakerCollectionProxy.cs" />
      <Compile Include="Assets\PlayMaker ArrayMaker\__internal__\PlayMakerHashTableProxy.cs" />
+     <Compile Include="Assets\PlayMaker Custom Actions\Particles\particleSystemClear.cs" />
+     <Compile Include="Assets\PlayMaker Shuriken\Actions\ParticleSystemPause.cs" />
+     <Compile Include="Assets\PlayMaker Shuriken\Actions\ParticleSystemPlay.cs" />
      <Compile Include="Assets\PlayMaker Utils\Components\Comment.cs" />
      <Compile Include="Assets\PlayMaker Utils\Event Properties\Actions\GetEventProperties.cs" />
      <Compile Include="Assets\PlayMaker Utils\Event Properties\Actions\SetEventProperties.cs" />
