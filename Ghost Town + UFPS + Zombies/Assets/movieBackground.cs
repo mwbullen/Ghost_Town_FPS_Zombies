@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class movieBackground : MonoBehaviour {
 
-	public Texture movieTexture;
 	MovieTexture m;
 
 	// Use this for initialization
