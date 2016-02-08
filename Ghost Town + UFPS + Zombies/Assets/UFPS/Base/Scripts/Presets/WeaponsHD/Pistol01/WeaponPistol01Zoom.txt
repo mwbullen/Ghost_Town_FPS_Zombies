@@ -26,4 +26,4 @@ RotationStrafeSway 0 0.5 -1
 PositionWalkSlide 0 0 0
 RotationPivot 0 0 0
 LookDownActive false
-
+PositionPivot 0 -0.31 0
