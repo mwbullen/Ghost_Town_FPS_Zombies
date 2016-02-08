@@ -32,3 +32,4 @@ StepPositionBalance 0
 StepRotationBalance 0
 PositionSpring2Stiffness 0.942029
 PositionSpring2Damping 0.9362319
+PositionPivot .002 -0.28 0
