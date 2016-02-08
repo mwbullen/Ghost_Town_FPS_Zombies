@@ -910,6 +910,7 @@
      <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\vp_WeaponShooter.cs" />
      <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\vp_WeaponThrower.cs" />
      <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\vp_Gameplay.cs" />
+     <Compile Include="Assets\Utilities.cs" />
      <Compile Include="Assets\VolumetricLines\ExampleScenes\ExampleScripts\CannonBehavior.cs" />
      <Compile Include="Assets\VolumetricLines\ExampleScenes\ExampleScripts\CreateSinShapedLineStrip.cs" />
      <Compile Include="Assets\VolumetricLines\ExampleScenes\ExampleScripts\ShotBehavior.cs" />
