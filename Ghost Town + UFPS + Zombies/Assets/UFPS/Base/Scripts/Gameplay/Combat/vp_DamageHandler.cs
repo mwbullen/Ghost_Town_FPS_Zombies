@@ -39,6 +39,12 @@ public class vp_DamageHandler : MonoBehaviour
 	public float ImpactDamageThreshold = 10;
 	public float ImpactDamageMultiplier = 0.0f;
 
+	//locational damage
+	public float HeadShotRangeTop;				//Top damage location in local space that is considered a headshot
+	public float HeadShotRangeBottom;			//Bottom damage location in local space that is considered a headshot
+	public float HeadShotDamageMultiple;
+
+
 	// NOTE: these variables have been made obsolete and are now found in
 	// the vp_Respawner component. there is temporary logic in this class
 	// to help make the transition easier
@@ -234,6 +240,18 @@ public class vp_DamageHandler : MonoBehaviour
 		// if we somehow shot ourselves with a bullet, ignore it
 		if ((damageInfo.Type == vp_DamageInfo.DamageType.Bullet) && (m_Source == Transform))
 			return;
+
+		//Calculate damage location, check for headshot
+		if (HeadShotRangeBottom != 0 && HeadShotRangeTop != 0 && HeadShotDamageMultiple != 0) {
+			Vector3 localHitPoint = transform.InverseTransformPoint(damageInfo.WorldHitPoint);
+			Debug.Log (localHitPoint);
+
+			if (HeadShotRangeBottom <= localHitPoint.y && localHitPoint.y <= HeadShotRangeTop) {
+				damageInfo.Damage = damageInfo.Damage * HeadShotDamageMultiple;
+				Debug.Log ("headshot damage: " + damageInfo.Damage.ToString());
+			}
+		}
+
 
 		// subtract damage from health
 		CurrentHealth = Mathf.Min(CurrentHealth - damageInfo.Damage, MaxHealth);
