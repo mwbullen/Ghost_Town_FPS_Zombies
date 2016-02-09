@@ -19,6 +19,7 @@ public class vp_DamageInfo
 	public Transform Source;			// from what object did it come (directly)? common use: HUD / GUI
 	public Transform OriginalSource;	// what object initially caused this to happen? common use: game logic, score
 	public DamageType Type;				// what type of damage is this?
+	public Vector3 WorldHitPoint; 		//where was the damage delivered?
 
 	public enum DamageType
 	{
@@ -44,6 +45,17 @@ public class vp_DamageInfo
 		Type = type;
 	}
 
+	/// <summary>
+	/// 
+	/// </summary>
+	public vp_DamageInfo( Vector3 worldHitPoint, float damage, Transform source, DamageType type = DamageType.Unknown)
+	{
+		Damage = damage;
+		Source = source;
+		OriginalSource = source;
+		Type = type;
+		WorldHitPoint = worldHitPoint;
+	}
 
 	/// <summary>
 	/// 

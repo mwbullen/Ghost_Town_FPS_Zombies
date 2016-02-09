@@ -183,8 +183,13 @@ public class vp_HitscanBullet : MonoBehaviour
 			m_TargetDHandler = vp_DamageHandler.GetDamageHandlerOfCollider(m_Hit.collider);	// try to find a damage handler on the target
 			if ((m_TargetDHandler != null) && (m_Source != null))
 			{
+				//Find raycast position, transform to local collider point
+				//Send as part of damageinfo?
+				Vector3 worldHitPoint = m_Hit.point;
+
+
 				// this was a known damagehandler target and we know the source: send UFPS damage!
-				m_TargetDHandler.Damage(new vp_DamageInfo(Damage, m_Source, vp_DamageInfo.DamageType.Bullet));
+				m_TargetDHandler.Damage(new vp_DamageInfo(worldHitPoint, Damage, m_Source, vp_DamageInfo.DamageType.Bullet ));
 			}
 			else if (!RequireDamageHandler)
 			{
