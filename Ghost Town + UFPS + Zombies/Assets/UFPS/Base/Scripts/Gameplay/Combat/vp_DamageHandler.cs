@@ -44,6 +44,9 @@ public class vp_DamageHandler : MonoBehaviour
 	public float HeadShotRangeBottom;			//Bottom damage location in local space that is considered a headshot
 	public float HeadShotDamageMultiple;
 
+	public GameObject damageHalo;
+
+
 
 	// NOTE: these variables have been made obsolete and are now found in
 	// the vp_Respawner component. there is temporary logic in this class
@@ -252,6 +255,9 @@ public class vp_DamageHandler : MonoBehaviour
 			}
 		}
 
+		if (damageHalo != null) {
+			GameObject.Instantiate (damageHalo, damageInfo.WorldHitPoint, gameObject.transform.rotation);
+		}
 
 		// subtract damage from health
 		CurrentHealth = Mathf.Min(CurrentHealth - damageInfo.Damage, MaxHealth);
