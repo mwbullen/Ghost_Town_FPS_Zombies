@@ -182,6 +182,7 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\StompingCamera.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\TurretInput.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ModernWeaponCrouch.txt" />
+     <None Include="Assets\Forgotten Dawn Assets\Meditative Ambient Loops\readme.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\AssaultRifle01\WeaponAssaultRifle01Reload.txt" />
      <None Include="Assets\Melee\Read me..txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MouseRawUnityCamera.txt" />
