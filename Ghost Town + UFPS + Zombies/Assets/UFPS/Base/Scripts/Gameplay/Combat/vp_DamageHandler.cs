@@ -380,7 +380,13 @@ public class vp_DamageHandler : MonoBehaviour
 		OriginalSource = null;
 
 	}
-	
+
+	public void addDeathSpawnObject(GameObject spawnobject) {
+		//DeathSpawnObjects.SetValue (spawnobject, DeathSpawnObjects.Length);
+		//Array.Resize  (DeathSpawnObjects, DeathSpawnObjects.Length + 1);
+		DeathSpawnObjects [DeathSpawnObjects.Length-1] = spawnobject;
+
+	}
 
 	/// <summary>
 	/// removes any bullet decals currently childed to this object
