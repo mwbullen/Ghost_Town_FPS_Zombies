@@ -289,6 +289,9 @@
  <Reference Include="P2T">
  <HintPath>C:/Users/Bullowitz/Documents/Ghost_Town_FPS_Zombies/Ghost Town + UFPS + Zombies/Assets/Exploder/Exploder/3rd/P2T.dll</HintPath>
  </Reference>
+ <Reference Include="P2T">
+ <HintPath>C:/Users/Bullowitz/Documents/Ghost_Town_FPS_Zombies/Ghost Town + UFPS + Zombies/Assets/Miscellaneous/Exploder/Exploder/3rd/P2T.dll</HintPath>
+ </Reference>
  <Reference Include="PlayMaker">
  <HintPath>C:/Users/Bullowitz/Documents/Ghost_Town_FPS_Zombies/Ghost Town + UFPS + Zombies/Assets/Plugins/PlayMaker/PlayMaker.dll</HintPath>
  </Reference>
